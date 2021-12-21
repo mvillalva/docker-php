@@ -2,7 +2,7 @@ version: '3.8'
 services:
   php:
     build:
-      context: ./php
+      context: ./docker/php
       dockerfile: Dockerfile
     container_name: php-server
     restart: always
